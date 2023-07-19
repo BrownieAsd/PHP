@@ -1,0 +1,497 @@
+body{
+	background-image:url(../galeria/backgrouns.png);
+	background-size:100%;
+	//*background-color:#242121; *//
+}
+
+
+
+
+a:link{
+	text-decoration:none;
+	
+}
+.font{
+font-family:Helvetica ;
+
+}
+.entry{
+	border:1px solid navy;
+	border-radius:5px;
+	margin:3%;
+	background-color: white;
+	position:absolute;
+    left:35%;
+    right:35%;
+    top:20%;
+	padding:2%;
+	color:navy;
+	font-family:Helvetica ;
+	text-align: center;
+}
+
+.menu{
+	color:black;
+	font-family:Helvetica ;
+	display:inline;
+	width:100%;
+	position:relative;
+	left:3%;
+	padding:2%;
+}
+.men{
+	color:black;
+	font-family:Helvetica ;
+	display:block;
+	position:relative;
+	padding-top:15%;
+	
+}
+
+.hie{
+	border:2px solid white;
+	background-color:white;
+	position:fixed;
+	padding-top:2%;
+	width:100%;
+	height:8%;
+	z-index:4;
+	top:0px;
+	left:0px;
+	right:0px;
+	
+}
+
+
+.logos{
+	position:fixed;
+	top:15%;
+	left:45%;
+	height:7%; 
+}
+
+
+a:hover{
+	color:navy;
+	
+}
+.hi{
+	border:2px solid white;
+	background-color:white;
+	position:fixed;
+	width:100%;
+	height:8%;
+	z-index:4;
+	top:0px;
+	left:0px;
+	right:0px;
+	
+}
+.logo{
+	position:fixed;
+	top:0px;
+	left:0px;
+	
+}
+
+
+.welcomeN{
+    background-color:white;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+    top:20%;
+    left:15%;
+    height:110%;
+    padding:2%;
+    z-index:2;
+    color: navy;
+    font-family:Helvetica ;
+}
+h1{text-align:center;}
+
+.welcomeS{
+	background-color:white;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	top:20%;
+	left:15%;
+	height:100%;
+	padding:2%;
+	z-index:2;
+	color: navy;
+	font-family:Helvetica ;
+}
+.welcomeA{
+	background-color:white;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	top:20%;
+	left:15%;
+	height:100%;
+	padding:2%;
+	z-index:2;
+	text-align:center;
+	color: navy;
+	font-family:Helvetica ;
+	text-align:left;
+}
+
+
+.welcome{
+	background-color:white;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:20%;
+	height:1000%;
+	left:15%;
+	right:15%;
+	z-index:2;
+	text-align:center;
+	color:navy;
+	font-family:Helvetica ;
+}
+#txt{
+	color:black;
+	font-family:Helvetica ;
+	position:fixed;
+	
+}
+
+legend{
+	border: 1px solid navy;
+	border-radius:5px;
+	text-transform:uppercase;
+	padding:2% 1%;
+	background-color:navy;
+	font-size:100%;
+	color:beige;
+}
+fieldset{
+	border:1px solid navy;
+	border-radius:5px;
+	margin:3%;
+	width:100%;
+
+}
+
+table, th, td {
+    border: 1px solid navy;
+	
+}
+.form{
+	
+	position:absolute;
+	padding:2%;
+	top:25%;
+	left:20.5%;
+	right:30%;
+	
+}
+
+.colo{
+	color:white;
+	background-color:navy;
+	border-color:navy;
+	border-radius:5px;
+}
+.komo{
+	border-radius:5px;
+}
+figcaption{
+	font-family:Helvetica ;
+	color:navy;
+}
+ul{
+list-style-type:url(../galeria/icon.png);
+}
+
+.kok{
+	padding:0px;
+	margin:0px;
+} 
+footer{
+	background-color:beige;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	color:black;
+	font-family:Helvetica ;
+	margin:0px;
+	padding:0px;
+	border:2px solid beige;
+	width:100%;
+	height:3%;
+}
+/*IMAGES */
+.pic{position:absolute;
+	top:0%;
+	left:0%;
+
+}
+.picture{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	top:15%;
+	right:5%;
+}
+.photo{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	top:15%;
+	left:5%;
+}
+.ph{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:60%;
+	left:5%;
+	
+}
+.pho{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:60%;
+	right:5%;
+	
+}
+.phot{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:105%;
+	left:5%;
+}
+.p{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:105%;
+	
+	right:5%;
+}
+.foto{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:150%;
+	right:5%;
+	
+}
+.fot{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:150%;
+	 left:5%;
+	
+}
+
+.fo{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:195%;
+	 
+	left:5%;
+}
+.fi{padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:195%; 
+	right:5%;
+}
+.ui{padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:240%; 
+	left:5%;
+}
+.iu{padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:240%; 
+	right:5%;
+}
+.ek{padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:285%; 
+	left:5%;
+}
+.ekh{padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:285%; 
+	right:5%;
+}
+.ekhu{padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:330%; 
+	left:5%;
+}
+/*END NORTH */
+.auc{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:15%;
+	 left:5%;
+	
+}
+.auck{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:15%;
+	 right:5%;
+	
+}
+.au{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:60%;
+	 left:5%;
+	
+}
+.auckl{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:60%;
+	right:5%;
+	
+}
+.auckla{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:105%;
+	left:5%;
+	
+}
+.aucklan{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:105%;
+	 right:5%;
+	
+}
+/*AUCKLAND END */
+
+
+.sou{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:15%;
+	 left:5%;
+	
+}
+.sout{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:15%;
+	 right:5%;
+	
+}
+.so{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:60%;
+	 left:5%;
+	
+}
+.south{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:60%;
+	 
+	right:5%;
+}
+.su{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:left;
+	top:105%;
+	 
+	left:5%;
+}
+.suth{
+	padding:20px;
+	border:1px solid silver;
+	background-color:beige;
+	position:absolute;
+	float:right;
+	top:105%;
+	
+	right:5%;
+}
